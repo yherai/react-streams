@@ -15,6 +15,7 @@ const store = createStore(
 
 addDecorator((storyFn) => <Provider store={store}>{storyFn()}</Provider>);
 
+// Logic to create a div for Modals
 const modalRoot = document.createElement('div');
 modalRoot.setAttribute('id', 'modal');
 document.body.append(modalRoot);

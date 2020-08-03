@@ -17,6 +17,13 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run storybook`
+
+Launches the Storybook of all stories defined in the application.<br />
+Open [http://localhost:40000](http://localhost:40000) to view it in the browser.
+
+**Note: The story book uses the Rest JSON server to get the data of streams available**
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />

@@ -10,18 +10,14 @@ import {
   EDIT_STREAM,
 } from './types';
 
-export const signIn = (userId) => {
-  return {
-    type: SIGN_IN,
-    payload: userId,
-  };
-};
+export const signIn = (userId) => ({
+  type: SIGN_IN,
+  payload: userId,
+});
 
-export const signOut = () => {
-  return {
-    type: SIGN_OUT,
-  };
-};
+export const signOut = () => ({
+  type: SIGN_OUT,
+});
 
 export const createStream = (formValues) => async (dispatch, getState) => {
   const { userId } = getState().auth;

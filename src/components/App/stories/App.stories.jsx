@@ -1,8 +1,8 @@
 import React from 'react';
 import { Router } from 'react-router-dom';
-import App from './App';
 import { storiesOf } from '@storybook/react';
-import history from '../history';
+import App from '..';
+import history from '../../../history';
 
 const generareHistory = () => {
   history.push('/');
